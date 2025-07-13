@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מודל ai</title> <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+<h1>מודל ai</h1> <div class="container">
+    <div id="api-status-area" style="text-align: center; margin-bottom: 15px; padding: 10px; border: 1px dashed #ccc; background-color: #f9f9f9;">
+        <div class="loading-indicator">
+            <div id="apiKeyLoadingBar" class="loading-bar-container">
+                <div class="loading-bar"></div>
+            </div>
+            <p id="apiKeyStatus" class="status-info">מאתחל מודל Llama 3 מקומי...</p> </div>
+    </div>
+
+    <div id="file-upload-area">
+        <label for="csvFile">טען קובץ CSV (שמור כ-UTF-8):</label>
+        <input type="file" id="csvFile" accept=".csv">
+        <div class="loading-indicator">
+            <div id="fileLoadingBar" class="loading-bar-container">
+                <div class="loading-bar"></div>
+            </div>
+            <p id="status">אנא טען קובץ CSV כדי להתחיל.</p>
+        </div>
+    </div>
+
+    <div id="chatbox">
+        </div>
+
+    <div id="input-area">
+        <input type="text" id="userMessage" placeholder="טוען..." autocomplete="off" disabled>
+        <button id="sendButton" disabled>שלח</button>
+    </div>
+</div>
+
+</body>
+</html>
