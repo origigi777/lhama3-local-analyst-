@@ -49,3 +49,11 @@ Architecture Overview
 Frontend: Simple HTML/JavaScript interface to upload CSV and send questions
 Backend: Fastserver that processes the data, generates embeddings, and compares the user question to the dataset- python interface for fester respond and make the model use pandas alone without any user knolage requiring 
 Embedding Model: Uses a Hebrew/English -compatible model to vectorize questions and rows, comparing them via cosine similarity
+
+
+in terminal located to backand folder run the command:
+
+ python3 app.py
+
+ 
+
