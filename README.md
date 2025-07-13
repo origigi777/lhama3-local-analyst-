@@ -56,4 +56,5 @@ in terminal located to backand folder run the command:
  python3 app.py
 
  
+<img width="759" height="862" alt="למה 3" src="https://github.com/user-attachments/assets/fc4e8ec1-7c2e-43ca-b3da-a6664db5cda1" />
 
